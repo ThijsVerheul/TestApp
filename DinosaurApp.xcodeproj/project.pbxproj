@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8731E53F193F50A100D6FA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731E53E193F50A100D6FA18 /* Foundation.framework */; };
+		8731E541193F50A100D6FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731E540193F50A100D6FA18 /* CoreGraphics.framework */; };
+		8731E543193F50A100D6FA18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731E542193F50A100D6FA18 /* UIKit.framework */; };
+		8731E549193F50A100D6FA18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8731E547193F50A100D6FA18 /* InfoPlist.strings */; };
+		8731E54B193F50A100D6FA18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8731E54A193F50A100D6FA18 /* main.m */; };
+		8731E54F193F50A100D6FA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8731E54E193F50A100D6FA18 /* AppDelegate.m */; };
+		8731E551193F50A100D6FA18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8731E550193F50A100D6FA18 /* Images.xcassets */; };
+		8731E558193F50A100D6FA18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731E557193F50A100D6FA18 /* XCTest.framework */; };
+		8731E559193F50A100D6FA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731E53E193F50A100D6FA18 /* Foundation.framework */; };
+		8731E55A193F50A100D6FA18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8731E542193F50A100D6FA18 /* UIKit.framework */; };
+		8731E562193F50A100D6FA18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8731E560193F50A100D6FA18 /* InfoPlist.strings */; };
+		8731E564193F50A100D6FA18 /* DinosaurAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8731E563193F50A100D6FA18 /* DinosaurAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8731E55B193F50A100D6FA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8731E533193F50A100D6FA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8731E53A193F50A100D6FA18;
+			remoteInfo = DinosaurApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8731E53B193F50A100D6FA18 /* DinosaurApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinosaurApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731E53E193F50A100D6FA18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8731E540193F50A100D6FA18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8731E542193F50A100D6FA18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8731E546193F50A100D6FA18 /* DinosaurApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinosaurApp-Info.plist"; sourceTree = "<group>"; };
+		8731E548193F50A100D6FA18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8731E54A193F50A100D6FA18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8731E54C193F50A100D6FA18 /* DinosaurApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DinosaurApp-Prefix.pch"; sourceTree = "<group>"; };
+		8731E54D193F50A100D6FA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8731E54E193F50A100D6FA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8731E550193F50A100D6FA18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8731E556193F50A100D6FA18 /* DinosaurAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinosaurAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8731E557193F50A100D6FA18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8731E55F193F50A100D6FA18 /* DinosaurAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinosaurAppTests-Info.plist"; sourceTree = "<group>"; };
+		8731E561193F50A100D6FA18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8731E563193F50A100D6FA18 /* DinosaurAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinosaurAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8731E538193F50A100D6FA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731E541193F50A100D6FA18 /* CoreGraphics.framework in Frameworks */,
+				8731E543193F50A100D6FA18 /* UIKit.framework in Frameworks */,
+				8731E53F193F50A100D6FA18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731E553193F50A100D6FA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731E558193F50A100D6FA18 /* XCTest.framework in Frameworks */,
+				8731E55A193F50A100D6FA18 /* UIKit.framework in Frameworks */,
+				8731E559193F50A100D6FA18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8731E532193F50A100D6FA18 = {
+			isa = PBXGroup;
+			children = (
+				8731E544193F50A100D6FA18 /* DinosaurApp */,
+				8731E55D193F50A100D6FA18 /* DinosaurAppTests */,
+				8731E53D193F50A100D6FA18 /* Frameworks */,
+				8731E53C193F50A100D6FA18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8731E53C193F50A100D6FA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8731E53B193F50A100D6FA18 /* DinosaurApp.app */,
+				8731E556193F50A100D6FA18 /* DinosaurAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8731E53D193F50A100D6FA18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8731E53E193F50A100D6FA18 /* Foundation.framework */,
+				8731E540193F50A100D6FA18 /* CoreGraphics.framework */,
+				8731E542193F50A100D6FA18 /* UIKit.framework */,
+				8731E557193F50A100D6FA18 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8731E544193F50A100D6FA18 /* DinosaurApp */ = {
+			isa = PBXGroup;
+			children = (
+				8731E54D193F50A100D6FA18 /* AppDelegate.h */,
+				8731E54E193F50A100D6FA18 /* AppDelegate.m */,
+				8731E550193F50A100D6FA18 /* Images.xcassets */,
+				8731E545193F50A100D6FA18 /* Supporting Files */,
+			);
+			path = DinosaurApp;
+			sourceTree = "<group>";
+		};
+		8731E545193F50A100D6FA18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8731E546193F50A100D6FA18 /* DinosaurApp-Info.plist */,
+				8731E547193F50A100D6FA18 /* InfoPlist.strings */,
+				8731E54A193F50A100D6FA18 /* main.m */,
+				8731E54C193F50A100D6FA18 /* DinosaurApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8731E55D193F50A100D6FA18 /* DinosaurAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8731E563193F50A100D6FA18 /* DinosaurAppTests.m */,
+				8731E55E193F50A100D6FA18 /* Supporting Files */,
+			);
+			path = DinosaurAppTests;
+			sourceTree = "<group>";
+		};
+		8731E55E193F50A100D6FA18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8731E55F193F50A100D6FA18 /* DinosaurAppTests-Info.plist */,
+				8731E560193F50A100D6FA18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8731E53A193F50A100D6FA18 /* DinosaurApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731E567193F50A100D6FA18 /* Build configuration list for PBXNativeTarget "DinosaurApp" */;
+			buildPhases = (
+				8731E537193F50A100D6FA18 /* Sources */,
+				8731E538193F50A100D6FA18 /* Frameworks */,
+				8731E539193F50A100D6FA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinosaurApp;
+			productName = DinosaurApp;
+			productReference = 8731E53B193F50A100D6FA18 /* DinosaurApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8731E555193F50A100D6FA18 /* DinosaurAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8731E56A193F50A100D6FA18 /* Build configuration list for PBXNativeTarget "DinosaurAppTests" */;
+			buildPhases = (
+				8731E552193F50A100D6FA18 /* Sources */,
+				8731E553193F50A100D6FA18 /* Frameworks */,
+				8731E554193F50A100D6FA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8731E55C193F50A100D6FA18 /* PBXTargetDependency */,
+			);
+			name = DinosaurAppTests;
+			productName = DinosaurAppTests;
+			productReference = 8731E556193F50A100D6FA18 /* DinosaurAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8731E533193F50A100D6FA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "thijs  verheul";
+				TargetAttributes = {
+					8731E555193F50A100D6FA18 = {
+						TestTargetID = 8731E53A193F50A100D6FA18;
+					};
+				};
+			};
+			buildConfigurationList = 8731E536193F50A100D6FA18 /* Build configuration list for PBXProject "DinosaurApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8731E532193F50A100D6FA18;
+			productRefGroup = 8731E53C193F50A100D6FA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8731E53A193F50A100D6FA18 /* DinosaurApp */,
+				8731E555193F50A100D6FA18 /* DinosaurAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8731E539193F50A100D6FA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731E549193F50A100D6FA18 /* InfoPlist.strings in Resources */,
+				8731E551193F50A100D6FA18 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731E554193F50A100D6FA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731E562193F50A100D6FA18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8731E537193F50A100D6FA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731E54F193F50A100D6FA18 /* AppDelegate.m in Sources */,
+				8731E54B193F50A100D6FA18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8731E552193F50A100D6FA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8731E564193F50A100D6FA18 /* DinosaurAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8731E55C193F50A100D6FA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8731E53A193F50A100D6FA18 /* DinosaurApp */;
+			targetProxy = 8731E55B193F50A100D6FA18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8731E547193F50A100D6FA18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8731E548193F50A100D6FA18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8731E560193F50A100D6FA18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8731E561193F50A100D6FA18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8731E565193F50A100D6FA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8731E566193F50A100D6FA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8731E568193F50A100D6FA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinosaurApp/DinosaurApp-Prefix.pch";
+				INFOPLIST_FILE = "DinosaurApp/DinosaurApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8731E569193F50A100D6FA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinosaurApp/DinosaurApp-Prefix.pch";
+				INFOPLIST_FILE = "DinosaurApp/DinosaurApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8731E56B193F50A100D6FA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DinosaurApp.app/DinosaurApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinosaurApp/DinosaurApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DinosaurAppTests/DinosaurAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8731E56C193F50A100D6FA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DinosaurApp.app/DinosaurApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinosaurApp/DinosaurApp-Prefix.pch";
+				INFOPLIST_FILE = "DinosaurAppTests/DinosaurAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8731E536193F50A100D6FA18 /* Build configuration list for PBXProject "DinosaurApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731E565193F50A100D6FA18 /* Debug */,
+				8731E566193F50A100D6FA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8731E567193F50A100D6FA18 /* Build configuration list for PBXNativeTarget "DinosaurApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731E568193F50A100D6FA18 /* Debug */,
+				8731E569193F50A100D6FA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8731E56A193F50A100D6FA18 /* Build configuration list for PBXNativeTarget "DinosaurAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8731E56B193F50A100D6FA18 /* Debug */,
+				8731E56C193F50A100D6FA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8731E533193F50A100D6FA18 /* Project object */;
+}
